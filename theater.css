@@ -1,0 +1,268 @@
+* {
+    /* border:1px solid red; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: px 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    background-color: rgb(143, 20, 20);
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbarlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item{
+    margin: 2px;
+    width: 25%;
+    height: 25%;
+    padding-left: 40px;
+    border: 0px; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover{
+    color: gold;
+}
+.navlg{
+    height: 60px;
+}
+.background{
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100;
+}
+.showfeats{
+    z-index: 1;
+    margin-top: 0px;
+    height: 19em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px rgb(0,0,0),
+                 1px 1px 0 #000,
+                 1px -1px 0 #000,
+                 -1px -1px 0 #000;}
+
+.about-header {
+    background-color: white;
+    color: rgba(81, 81, 81, 0.742);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgb(0,0,0) 40%);
+    align-items: flex-end;
+}
+.main-tile-dimension {
+    width: 100%;
+    height: 90%;
+    background-color: rgba(255, 217, 0, 0.722);
+    color: black;
+    display: flex;
+    align-content: center;
+}
+/* }
+.image-container-about{
+    border-radius: 30%;
+} */
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    background-color: rgba(244, 239, 239, 0.481);
+  
+}   
+.amg{
+   border-radius: 30%;
+   align-content: center;
+   width: 450px;
+   height: 350px;
+   margin-top: 0%;
+   padding-top: 20px;
+}
+
+.Showings {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.515);
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    
+}
+.Showings-container{
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+.Showings-header{
+    background-color: gold;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+}
+.third-dimension {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+    
+/* .image-container-rats{
+    background-color: black;
+   
+} */
+
+.second-tile-dimension{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    }
+.Showings-info{
+    padding-bottom: 10px;
+}
+.Conssesions{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.535);
+    color: rgb(251, 231, 9);
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+}
+.Conssesions-header{
+    text-align: center;
+    padding-top: 0px;
+    border-top: 0 px;
+    background-color: rgba(255, 0, 0, 0.624) ;
+    height: 100%;
+    width: 100%;
+}
+.Conssesions-image-container{
+    width: 100%;
+    height: 100;
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+    overflow-wrap: normal;
+}
+td, th{
+    border:1px solid #dddd;
+    text-align: left;
+    padding: 8px;
+    
+}
+th{
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.map{
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+.mapping{
+    width: 450px;
+}
+.footinfo{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+.footshows{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+ .foothead{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+} 
+.tiny{
+    margin: 3px;
+}
+.Tiny{
+    margin: 6px; 
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
